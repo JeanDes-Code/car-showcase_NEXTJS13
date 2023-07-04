@@ -8,7 +8,7 @@ import { CarProps } from "@/types";
 
 interface CarDetailsProps {
   isOpen: boolean;
-  closeModal: (isOpen: boolean) => void;
+  closeModal: () => void;
   car: CarProps;
 }
 
